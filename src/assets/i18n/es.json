@@ -1,0 +1,87 @@
+{
+    "Menu": {
+        "Home": "Inicio",
+        "Features": "Servicios",
+        "About": "Quienes Somos",
+        "Team": "Nuestro Equipo",
+        "Testimonials": "Opiniones",
+        "Contact": "Contáctanos"
+    },
+    "Motto":{
+        "Motto":"Haz Tu Negocio Crecer"
+    },
+
+    "Features":{
+        "Title":"Nuestros Servicios",
+        "Text":"Realizamos un diseño a medida en función de las necesidades de nuestros clientes, garantizando que el producto final tenga la calidad que usted merece, y proporcionándole un sistema robusto, adaptable y escalable",
+        "S1":"Análisis, Diseño y Desarrollo de Sistemas",
+        "T1":"Brindamos soluciones informáticas a problemas reales que se ajustan 100% a las necesidades de nuestros clientes, en cualquier plataforma (móvil, web o escritorio).",
+        "S2":"Casa Inteligente",
+        "T2":"Desarrollo de hardware para la automatización de luminarias, clima, puertas automáticas y sistemas operativo para el control del hogar inteligente.", 
+        "S3":"Análisis de Datos",
+        "T3":"Ofrecemos servicios de análisis de datos, en diferentes tecnologías, tipos de datos, tratamiento, análisis y visualización. Ofreciéndole recursos para tomar las mejores decisiones para su negocio.",
+        "S4":"Diseños de Red",
+        "T4":"Diseño de Intranets y plataformas para administrar las comunicaciones internas de cualquier empresa.",
+        "S5":"Formación para Usuarios",
+        "T5":"Luego de entregar la solución a nuestros clientes ofrecemos capacitación a los futuros usuarios del sistema.",
+        "S6":"Soporte y Mantenimiento",
+        "T6":"Ofrecemos soporte y mantenimiento continuo y personalizado a cargo de especialistas en su sistema." 
+    },
+    "Related_Work":{
+        "Title":"Trabajos relacionados",
+        "Text": "Una muestra de nuestros trabajos más exitosos y la reacción de los clientes a su visualizacón",
+        "SubTitle":"Trabajo y comentario",
+        "w1_Description": "Sistema de ventas online. Venta de electrodomésticos con envio en estados unidos y el caribe. Cuenta con tres sistemas: <br> 1-Cliente (Movil y Web) <br> 2-Administrador (Gestión de la información) <br> 3-Servidor (Comunicación con almacenes de datos)",
+        "w1_profession" : "Ing. Mecánico",
+        "w1_comment" : "Wow asombroso, un sistema muy instuitivo y de gran calidad. Mis ganancias se han elevado un 60% y poseo gran control de las ventas y clientes",
+        "w2_Description": "Sistema para la muestra de coleción propia del cliente, donde se muetran multiples secciones de diferentes imagenes de piezas del coleccionismo cubano. Cuenta con tres sistemas: <br> 1-Cliente (Web) <br> 2-Administrador (Gestión de la información) <br> 3-Servidor (Comunicación con almacenes de datos)",
+        "w2_profession" : "Fundador <a href='http://cubamuseo.com'>cubamuseo.com<a>",
+        "w2_comment" : "Muy bien estructurado con diseño totalmente adaptable a los dispositivos de acceso a internet. Muy buen trabajo seguiré trabajando con ustedes",
+        "w3_Description": "Aplicación android para el apoyo en el sistema de enseñanza-aprendizaje en la rama de la filosofía. Desarrollada en Ionic Framework, para su uso multiplataforma.",
+        "w3_profession" : "Licenciado en Educación en Historia y Ciencias",
+        "w3_comment" : "Agradecer al grupo de desarrollo sin el cual hubiera sido imposible desarrollar la APK: “Espiral”,que constituyó el último elemento complementario de mi investigación, desarrollada en el área de la enseñanza-aprendizaje de las ciencias sociales."
+    },
+    "About":{
+        "About":"Quienes Somos",
+        "Mission":"Nuestra Misión",
+        "Text":"E&Solutions es una empresa enfocada en el desarrollo de software y hardware, brindando soluciones a medida para cada cliente. Haciendo uso de las más innovadoras tecnologías E&Solutions pone en marcha todo lo que usted imagine para su negocio.",
+        "Text2":"Los sistemas desarrollados son modulares permitiendo así escalabilidad, adaptabilidad y facilidad a la hora de realizar cambios. Este tipo de sistemas le permitirá al cliente ir agregando nuevas funciones en la medida que su negocio crezca e ir adaptando sus capacidades en tiempo real.",
+        "Text3":"Le garantizamos:",
+        "Obj1":"Calidad",
+        "Obj2":"Eficiencia",
+        "Obj3":"Seriedad"
+    },
+
+    "Professions":{
+        "Team":"Nuestro Equipo",
+        "Text":"Somos un equipo multidiciplinario, especializados en diversas ramas de la ingeniría",
+        "Anabel":"Ing. Informática",
+        "Resumen-An":"Ingeniera Informática graduada en la Universidad Tecnólogica de La Habana. Enfocada en la utilización de técnicas de Análisis de Datos para apoyar la toma de decisiones",
+        "Sandy":"Ing. Informático",
+        "Resumen-San":"Ingeniero Informático, jefe de proyecto de la compañía especializado en el desarrollo de aplicaciones multiplataforma, inteligencia artifical y modelación de negocios",
+        "Wendy":"Ing. Telecomunicaciones y Electrónica",
+        "Resumen-Wen":"",
+        "Alejandro":"Ing. Telecomunicaciones y Electrónica",
+        "Resumen-Ale":"",
+        "Carlos":"Ing. Automático",
+        "Resumen-Car":"Investigador del campo de la robótica, graduado de Ingeniería Atomática. Aficionado de la inteligencia artificial y el procesamiento de datos."
+    },
+    "Testimonials":{
+        "Title":"Opiniones de nuestros clientes",
+        "T1":"Nunca pensé que estos jovenes ingenieros podrían realizar un trabajo de alta calidad con tan buenos precios. La atención al cliente es de las mejores que he experimentado, muy pacientes y magníficos tratos. Muy eficientes a la hora del cumpliento de listas de tareas conveniadas.",
+        "T2":"Muy carismáticos jovenes, que dan lo mejor de sí en sus trabajos. Estoy muy contento con los resultados que se obtienen tanto en eficacia, eficiencia y calidad.",
+        "T3":"De estudiantes magníficos, ahora profesionales realizando un exelente trabajo con explendidos resultados. Muy orgullo de haber sido parte de su enseñaza y observar sus avances satisfactorios en el mundo de las pequeñas compañias."
+    },
+    "Contact":{
+        "Title":"Contáctanos",
+        "Name":"Nombre",
+        "LastName":"Apellido",
+        "Email":"Correo",
+        "Subject":"Asunto",
+        "Message":"Mensaje",
+        "PlaceHolder":"Deje su mensaje aquí...",
+        "Send":"Enviar",
+        "Text":"Si desea la contratación de alguno de nuestros servicios, puede contactarnos a este correo. Se le dará respuesta a sus preguntas lo más pronto posible y con el respeto que usted merece. Nuestro objetivo será llegar a un acuerdo que le resulte beneficioso y de agrado",
+        "Text2": "Recuerde su satisfacción es nuestra prioridad. Le esperamos"
+    }
+}

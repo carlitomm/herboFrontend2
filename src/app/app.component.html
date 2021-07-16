@@ -1,0 +1,511 @@
+
+<div id="overlayer"></div>
+  <!-- <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div> -->
+
+  <div class="site-wrap" id="home-section">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-8 col-md-3 col-xl-3  d-block">
+            <h1 class="mb-0 site-logo"><a href="http://eandsolutions.com" class="text-black h2 mb-0" style="color: #88bff5!important;"><span
+                  class="text-primary" style="color: #a338c5!important;">E&S</span>olutions. </a></h1>
+                  <p style="font-size: 10px;">Electronic and Software Solutions</p>
+          </div>
+
+          <div class="col-12 col-md-9 col-xl-9 main-menu">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
+                <li class=""><a href="#home-section" class="nav-link">{{'Menu.Home'|translate}}</a></li>
+                <li><a href="#features-section" class="nav-link">{{'Menu.Features'|translate}}</a></li>
+                <li><a href="#about-section" class="nav-link">{{'Menu.About'|translate}}</a></li>
+<!--                 <li><a href="#our-team-section" class="nav-link">{{'Menu.Team'|translate}}</a></li> -->
+                <li><a href="#testimonials-section" class="nav-link">{{'Menu.Testimonials'|translate}}</a></li>
+                <li><a href="#contact-section" class="nav-link">{{'Menu.Contact'|translate}}</a></li>
+                <div class="language">
+                  <img lang="es" (click)="change('es')" src="../assets/img/espana.png"
+                    style="margin-right: 5px;">
+                    |
+                  <img lang="en" (click)="change('en')" src="../assets/img/bandera.png"
+                    style="margin-left: 5px;">
+                </div>
+              </ul>
+              
+            </nav>
+          </div>
+          <div class="hamburger ml-auto menu_mm" style="float: right; color: black;">
+            <li style="list-style: none;" class="fa fa-bars trans_200 menu_mm icon-menu h3"></li>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="side-menu menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+      <div class="menu_close_container">
+        <div class="menu_close">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="logo menu_mm"><a href="http://eandsolutions.com" class="text-black h2 mb-0" style="color: #88bff5!important;"><span
+        class="text-primary" style="color: #a338c5!important; font-size: larger;">E&S</span>olutions. </a>
+        <p style="font-size: 10px;">Electronic and Software Solutions</p>
+      </div>
+      <div class="language" style="margin-bottom: 5px;">
+        <img lang="es" (click)="change('es')" src="../assets/img/espana.png" style="max-width: 20px; max-height: 20px;">
+        <img lang="en" (click)="change('en')" src="../assets/img/bandera.png"
+          style="max-width: 20px; max-height: 20px;margin-left: 5px;">
+      </div>
+      <nav class="menu_nav">
+        <ul class="menu_mm">
+          <li class="js-menu-toggle-hamburguer"><a href="#home-section" class="menu_mm">{{'Menu.Home'|translate}}</a></li>
+          <li class="js-menu-toggle-hamburguer"><a href="#features-section" class="menu_mm">{{'Menu.Features'|translate}}</a></li>
+          <li class="js-menu-toggle-hamburguer"><a href="#about-section" class="menu_mm">{{'Menu.About'|translate}}</a></li>
+         <!--  <li><a href="#our-team-section" class="menu_mm">{{'Menu.Team'|translate}}</a></li> -->
+          <li class="js-menu-toggle-hamburguer"><a href="#testimonials-section" class="menu_mm">{{'Menu.Testimonials'|translate}}</a></li>
+          <li class="js-menu-toggle-hamburguer"><a href="#contact-section" class="menu_mm">{{'Menu.Contact'|translate}}</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+
+
+    <div class="site-blocks-cover" style="overflow: hidden;">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+          <div class="col-md-12" style="position: relative;" data-aos="fade-up" data-aos-delay="200">
+
+            <img src="../assets/img/hero_1.jpg" style="margin-left: 0px;" alt="Image" class="img-fluid img-absolute">
+
+            <div class="row mb-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="col-lg-6 mr-auto">
+                <div style="text-align: center;transform: translateY(95%) translateX(0%);">
+                  <h1>{{'Motto.Motto'|translate}}</h1>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="site-section" id="features-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center" data-aos="fade-up">
+          <div class="col-md-7 col-10 text-center  mb-5">
+            <h2 class="section-title">{{'Features.Title'|translate}}</h2>
+            <p class="lead">{{'Features.Text'|translate}}</p>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+
+            <div class="unit-4 d-block" style="height: 210px;">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-devices_other"></span></span>
+              </div>
+              <div>
+                <h3>{{'Features.S1'|translate}}</h3>
+                <p>{{'Features.T1'|translate}}</p>
+                <!-- <p><a href="#">Learn More</a></p> -->
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="unit-4 d-block" style="height: 210px;">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-store_mall_directory"></span></span>
+              </div>
+              <div>
+                <h3>{{'Features.S2'|translate}}</h3>
+                <p>{{'Features.T2'|translate}}</p>
+                <!-- <p><a href="#">Learn More</a></p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4 d-block" style="height: 210px;">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-data_usage"></span></span>
+              </div>
+              <div>
+                <h3>{{'Features.S3'|translate}}</h3>
+                <p>{{'Features.T3'|translate}}</p>
+                <!-- <p><a href="#">Learn More</a></p> -->
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            <div class="unit-4 d-block" style="height: 210px;">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-router"></span></span>
+              </div>
+              <div>
+                <h3>{{'Features.S4'|translate}}</h3>
+                <p>{{'Features.T4'|translate}}</p>
+                <!-- <p><a href="#">Learn More</a></p> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="unit-4 d-block" style="height: 210px;">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-users"></span></span>
+              </div>
+              <div>
+                <h3>{{'Features.S5'|translate}}</h3>
+                <p>{{'Features.T5'|translate}}</p>
+                <!-- <p><a href="#">Learn More</a></p> -->
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4 d-block" style="height: 210px;">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-verified_user"></span></span>
+              </div>
+              <div>
+                <h3>{{'Features.S6'|translate}}</h3>
+                <p>{{'Features.T6'|translate}}</p>
+                <!-- <p><a href="#">Learn More</a></p> -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="feature-big">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center" data-aos="fade-up">
+          <div class="col-md-7 col-10 text-center  mb-5">
+            <h2 class="section-title">{{'Related_Work.Title'|translate}}</h2>
+            <p class="lead">{{'Related_Work.Text'|translate}}</p>
+          </div>
+        </div>
+        <div class="row mb-5 site-section">
+          <div class="col-lg-7 aos-init aos-animate" data-aos="fade-right">
+            <img src="../assets/img/undraw_investing_7u74.svg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pl-lg-5 ml-auto ">
+            <h2 class="text-black">{{'Related_Work.SubTitle'| translate}}</h2>
+            <p class="mb-4" [innerHTML]="'Related_Work.w1_Description'|translate"></p>
+            
+            <div class="author-box aos-init aos-animate" data-aos="fade-left">
+              <div class="d-flex mb-4">
+                <div class="mr-3">
+                  <img src="../assets/img/avatar.png" alt="Image" class="img-fluid rounded-circle">
+                </div>
+                <div class="mr-auto text-black">
+                  <strong class="font-weight-bold mb-0">Jesús Miguélez</strong> <br>
+                  {{'Related_Work.w1_profession'|translate}}
+                </div>
+              </div>
+              <blockquote>“{{'Related_Work.w1_comment' | translate}}”</blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5 row mb-5 site-section ">
+          <div class="col-lg-7 order-1 order-lg-2 aos-init" data-aos="fade-left">
+            <img src="../assets/img/undraw_metrics_gtu7.svg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pr-lg-5 mr-auto order-2 order-lg-1">
+            <h2 class="text-black">{{'Related_Work.SubTitle'| translate}}</h2>
+            <p class="mb-4" [innerHTML]="'Related_Work.w2_Description'|translate"></p>
+            
+            
+
+            <div class="author-box aos-init" data-aos="fade-right">
+              <div class="d-flex mb-4">
+                <div class="mr-3">
+                  <img src="../assets/img/avatar.png" alt="Image" class="img-fluid rounded-circle">
+                </div>
+                <div class="mr-auto text-black">
+                  <strong class="font-weight-bold mb-0">Luis Díaz</strong> <br>
+                  <p [innerHTML]= "'Related_Work.w2_profession'|translate"></p>
+                </div>
+              </div>
+              <blockquote>“{{'Related_Work.w2_comment'|translate}}”</blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-5 site-section">
+          <div class="col-lg-7 aos-init" data-aos="fade-right">
+            <img src="../assets/img/undraw_gift_card_6ekc.svg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pr-lg-5 mr-auto order-2 order-lg-1" style="margin-top: 0 ;">
+            <h2 class="text-black">{{'Related_Work.SubTitle'| translate}}</h2>
+            <p class="mb-4" [innerHTML]="'Related_Work.w3_Description'|translate"></p>
+            
+            <div class="author-box aos-init" data-aos="fade-left">
+              <div class="d-flex mb-4">
+                <div class="mr-3">
+                  <img src="../assets/img/avatar.png" alt="Image" class="img-fluid rounded-circle">
+                </div>
+                <div class="mr-auto text-black">
+                  <strong class="font-weight-bold mb-0">Héctor Perdigón</strong> <br>
+                  <p [innerHTML]= "'Related_Work.w3_profession'|translate"></p>
+                </div>
+              </div>
+              <blockquote>“{{'Related_Work.w3_comment'|translate}}”</blockquote>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="mt-5 row mb-5 site-section ">
+          <div class="col-lg-7 order-1 order-lg-2 aos-init" data-aos="fade-left">
+            <img src="../assets/img/undraw_metrics_gtu7.svg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pr-lg-5 mr-auto mt-5 order-2 order-lg-1">
+            <h2 class="text-black">Communicate and gather feedback</h2>
+            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem neque nisi architecto autem molestias corrupti officia veniam</p>
+            
+            
+
+            <div class="author-box aos-init" data-aos="fade-right">
+              <div class="d-flex mb-4">
+                <div class="mr-3">
+                  <img src="../assets/img/person_1.jpg" alt="Image" class="img-fluid rounded-circle">
+                </div>
+                <div class="mr-auto text-black">
+                  <strong class="font-weight-bold mb-0">Kimberly Gush</strong> <br>
+                  Co-Founder, XYZ Inc.
+                </div>
+              </div>
+              <blockquote>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores inventore aperiam iure?”</blockquote>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+
+    <div class="site-section bg-light" id="about-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">{{'About.About'|translate}}</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src="../assets/img/undraw_bookmarks_r6up.svg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 ml-auto pl-lg-5">
+            <h2 class="text-black mb-4 h3 font-weight-bold">{{'About.Mission'|translate}}</h2>
+            <p class="mb-4">{{'About.Text'|translate}}</p>
+            <p class="mb-4">{{'About.Text2'|translate}}</p>
+            <p class="mb-4">{{'About.Text3'|translate}}</p>
+            <ul class="ul-check mb-5 list-unstyled success">
+              <li>{{'About.Obj1'|translate}}</li>
+              <li>{{'About.Obj2'|translate}}</li>
+              <li>{{'About.Obj3'|translate}}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="site-section testimonial-wrap bg-light" id="testimonials-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">{{'Testimonials.Title'|translate}}</h2>
+          </div>
+        </div>
+      </div>
+      <div class="slide-one-item home-slider owl-carousel">
+        <div>
+          <div class="testimonial">
+            <!-- <figure class="mb-4 d-block align-items-center justify-content-center">
+              <div><img src="../assets/img/person_3.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+            </figure> -->
+            <blockquote class="mb-3">
+              <p>&ldquo;{{'Testimonials.T1'|translate}}&rdquo;</p>
+            </blockquote>
+            <p class="text-black"><strong>Luis Días</strong></p>
+          </div>
+        </div>
+        <div>
+          <div class="testimonial">
+            <blockquote class="mb-3">
+              <p>&ldquo;{{'Testimonials.T2'|translate}}&rdquo;</p>
+            </blockquote>
+            <p class="text-black"><strong>Jesús Miranda</strong></p>
+          </div>
+        </div>
+
+        <div>
+          <div class="testimonial">
+            <blockquote class="mb-3">
+              <p>&ldquo;{{'Testimonials.T3'|translate}}&rdquo;</p>
+            </blockquote>
+            <p class="text-black"><strong>Eduardo Gómez</strong></p>
+
+
+          </div>
+
+        </div>
+
+        <!-- <div>
+          <div class="testimonial">
+            <figure class="mb-4 d-block align-items-center justify-content-center">
+              <div><img src="../assets/img/person_1.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+            </figure>
+            <blockquote class="mb-3">
+              <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam
+                quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet
+                dolores excepturi earum unde iusto.&rdquo;</p>
+            </blockquote>
+            <p class="text-black"><strong>Kyle McDonald</strong></p>
+
+
+          </div>
+
+        </div> -->
+
+      </div>
+    </div>
+    
+    <div class="site-section bg-light" id="contact-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3" >{{'Contact.Title'|translate}}</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src="../assets/img/contact.svg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 ml-auto pl-lg-5">
+            <h2 class="text-black mb-4 h3 font-weight-bold">info@eandsolutions.com</h2>
+            <p class="mb-4">{{'Contact.Text'|translate}}</p>
+            <p class="mb-4">{{'Contact.Text2'|translate}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="site-section bg-image2 overlay" id="contact-section"
+      style="background-image: url('images/hero_1.jpg');">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3 text-white">{{'Contact.Title'|translate}}</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-7 mb-5">
+            <div action="#" class="p-5 bg-white">
+              <p style="text-align: center; margin-bottom: 22px;">info@eandsolutions.com</p>
+              <div class="row form-group">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <label class="text-black">{{'Contact.Name'|translate}}</label>
+                  <input type="text" [(ngModel)]="mail.name" class="form-control rounded-0">
+                </div>
+                <div class="col-md-6">
+                  <label class="text-black">{{'Contact.LastName'|translate}}</label>
+                  <input type="text" [(ngModel)]="mail.lastname" class="form-control rounded-0">
+                </div>
+              </div>
+
+              <div class="row form-group">
+
+                <div class="col-md-12">
+                  <label class="text-black">{{'Contact.Email'|translate}}</label>
+                  <input type="email" [(ngModel)]="mail.mail" class="form-control rounded-0">
+                </div>
+              </div>
+
+              <div class="row form-group">
+
+                <div class="col-md-12">
+                  <label class="text-black">{{'Contact.Subject'|translate}}</label>
+                  <input type="subject" [(ngModel)]="mail.subject" class="form-control rounded-0">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="text-black">{{'Contact.Message'|translate}}</label>
+                  <textarea name="message" [(ngModel)]="mail.messaje" cols="30" rows="7" class="form-control rounded-0"
+                    placeholder="{{'Contact.PlaceHolder'|translate}}"></textarea>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <button (click)="sendmessage()" class="btn btn-primary mr-2 mb-2">{{'Contact.Send'|translate}} </button>
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+
+        </div>
+
+      </div>
+    </div> -->
+
+    <div class="footer py-5 text-center">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12">
+            <p class="mb-0">
+              <a href="https://business.facebook.com/ESolutions-616186795703575/" target="_blank" class="p-3"><span class="icon-facebook"></span></a>
+              <!-- <a href="" class="p-3" target="_blank"><span class="icon-twitter"></span></a> -->
+              <a href="https://www.instagram.com/eandsolutions/" class="p-3"><span class="icon-instagram"></span></a>
+              <a href="https://www.linkedin.com/company/eandsolutions" class="p-3" target="_blank"><span class="icon-linkedin"></span></a>
+              <a href="https://www.pinterest.com/eandsolutions" class="p-3" target="_blank"><span class="icon-pinterest"></span></a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="mb-0">
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;
+              2020-{{date.getFullYear()}} All rights reserved | This template is desing
+              with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com"
+                target="_blank">Colorlib</a> and Developed by <a href="http://eandsolutions.com" target="_blank">E&Solutions</a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- .site-wrap -->
+

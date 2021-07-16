@@ -1,0 +1,87 @@
+{
+    "Menu": {
+        "Home": "Home",
+        "Features": "Services",
+        "About": "About Us",
+        "Team": "Our Team",
+        "Testimonials": "Testimonials",
+        "Contact": "Contact"
+    },
+
+    "Motto":{
+        "Motto":"Make Your Business More Profitable"
+    }, 
+    "Features":{
+        "Title":"Our Services",
+        "Text":"We design solutions according to the needs of our clients, guaranteeing that the final product has the quality you deserve, and providing you with a robust, adaptable and scalable system.",
+        "S1":"Analysis, Design and Development of Software",
+        "T1":"We provide software solutions to real problems that are 100% adjusted to the needs of our clients, on any platform (mobile, web or desktop).",
+        "S2":"Smart House",
+        "T2":"Hardware development for the automation of luminaires, climate, automatic doors and operating systems for smart home control.", 
+        "S3":"Data Analysis",
+        "T3":"We offer data analysis services, in different technologies, data types, treatment, analysis and visualization. Offering you resources to make the best decisions for your business.",
+        "S4":"Local Network Design",
+        "T4":"Design of Intranets and platforms to manage the internal communications of any company.",
+        "S5":"Users Training",
+        "T5":"After delivering the solution to our clients, we offer training to future users of the system.",
+        "S6":"Support and Maintenance",
+        "T6":"We offer continuous and personalized support and maintenance by specialists in your system."  
+    },
+    "Related_Work":{
+        "Title":"Related Works",
+        "Text": "A sample of our most successful works, and the clients reaction to their visualization",
+        "SubTitle":"Work and personal feedback",
+        "w1_Description": "Online sales system. Sale of household appliances with shipping in the united states and the caribbean. It has three systems: <br> 1-Client (Mobile and Web) <br> 2-Administrator (Information Management) <br> 3-Server (Communication with data bases)",
+        "w1_profession" : "Mechanical engineer",
+        "w1_comment" : "Wow amazing, a very intuitive and high quality system. My earnings have increased 60% and I have great control over sales and clients",
+        "w2_Description": "System for the exhibition of the client own collection, where multiple sections of different images of pieces of Cuban collecting are displayed. It has three systems: <br> 1-Client (Web) <br> 2-Administrator (Information management) <br> 3-Server (Communication with data bases)",
+        "w2_profession" : "Founder <a href='http://cubamuseo.com'>cubamuseo.com<a>",
+        "w2_comment" : "Very well structured with a design fully adaptable to internet access devices. Very good work I will continue working with you",
+        "w3_Description": "Android application for support in the teaching-learning system in the branch of philosophy. Developed in Ionic Framework, for multiplatform use.",
+        "w3_profession" : "Bachelor of Education in History and Science",
+        "w3_comment" : "To thank the development group without which it would have been impossible to develop the APK: “Spiral”, which was the last complementary element of my research, developed in the area of ​​teaching-learning of the social sciences."
+       },
+    "About":{
+        "About":"About Us",
+        "Mission":"Our Mission",
+        "Text":"E&Solutions it`s a company focused on software and hardware development, providing customized solutions for each client. Using the most innovative technologies LocalJobs launches everything you imagine for your business.",
+        "Text2":"The systems developed are modular providing  scalability, adaptability and ease of changes. This type of systems will allow the client to add new functions as his business grows and adapt his capabilities in real time.",
+        "Text3":"We guarantee:",
+        "Obj1":"Quality",
+        "Obj2":"Efficiency",
+        "Obj3":"Seriousness"
+    },
+
+    "Professions":{
+        "Team":"Our Team",
+        "Text":"We are a multi-disciplinary team, specialized in different branches of engineering",
+        "Anabel":"Software Engineer",
+        "Resumen-An":"Software Engineer graduated at Technological University of Havana. Focused in Data Analysis Tecniques to Support Decision Making",
+        "Sandy":"Software Engineer",
+        "Resumen-San":"Software Engineer, project manager of the company specialized in the development of multiplatform applications, artificial intelligence and business modeling",
+        "Wendy":"Telecommunications and Electronics Engineer",
+        "Resumen-Wen":"",
+        "Alejandro":"Telecommunications and Electronics Engineer",
+        "Resumen-Ale":"",
+        "Carlos":"Automatic Engineer",
+        "Resumen-Car":"Robotic researcher with a bachelor degree in Automatics Engineering. Passionate with artificial intelligence and data processing."
+    },
+    "Testimonials":{
+        "Title":"Testimonials",
+        "T1":"I never thought that these young engineers could do high-quality work at such great prices. The customer service is one of the best I have experienced, very patient and magnificent deals. Very efficient when it comes to complying with agreed task lists.",
+        "T2":"Very charismatic young people, who give their best in their jobs. I am very delighted with the results that are obtained both in effectiveness, efficiency and quality.",
+        "T3":"Of magnificent students, now professionals doing an excellent job with splendid results. Very proud to have been part of his teaching and to observe his satisfactory progress in the world of small companies."
+    },
+    "Contact":{
+        "Title":"Contact Us",
+        "Name":"Name",
+        "LastName":"Last Name",
+        "Email":"Email",
+        "Subject":"Subject",
+        "Message":"Message",
+        "PlaceHolder":"Leave your message here...",
+        "Send":"Send Message",
+        "Text":"If you want to hire any of our services, you can contact us at this email. Your questions will be answered as soon as possible and with the respect you deserve. Our goal will be to reach an agreement that is beneficial and to your liking",
+        "Text2":"Remember your satisfaction is our priority. We will be waiting for you"
+    }
+}
